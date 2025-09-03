@@ -1,0 +1,36 @@
+/* Windows XP Theme */
+.window {
+  background: #fff;
+  border: 2px solid #3a6ea5;
+  border-radius: 6px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.5);
+}
+.window-titlebar {
+  background: linear-gradient(#3a6ea5, #2a4e85);
+  color: #fff;
+  padding: 4px;
+  font-weight: bold;
+  cursor: move;
+  border-radius: 4px 4px 0 0;
+}
+.window-titlebar button {
+  background: #ddd;
+  border: none;
+  border-radius: 3px;
+  width: 20px;
+  height: 20px;
+}
+#taskbar {
+  background: #24589a;
+  color: white;
+}
+#start-menu {
+  background: #fff;
+  border: 1px solid #24589a;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+}
+.menu-item:hover {
+  background: #24589a;
+  color: white;
+}

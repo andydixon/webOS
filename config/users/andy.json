@@ -1,0 +1,12 @@
+{
+  "username": "andy",
+  "password": "$2y$12$vkG0Eo7IrI0e8EAlhxWyvuJ.wF5idCtxayl0iOCg1eyQtSyk29Kmy",
+  "theme": "win95",
+  "wallpaper": "wallpapers/ocean.jpg",
+  "apps": ["notepad", "browser", "explorer", "settings", "store", "usermgr"],
+  "fsRoot": "andy",
+  "desktop": [
+    { "type": "app", "id": "explorer", "x": 40, "y": 50 },
+    { "type": "file", "path": "home/readme.txt", "x": 140, "y": 50 }
+  ]
+}

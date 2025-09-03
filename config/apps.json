@@ -1,0 +1,58 @@
+{
+  "apps": [
+    {
+      "id": "notepad",
+      "title": "Notepad",
+      "icon": "icons/Notepad.png",
+      "entry": "apps/notepad/index.php",
+      "permissions": ["fs"],
+      "width": 600,
+      "height": 400
+    },
+    {
+      "id": "browser",
+      "title": "Browser",
+      "icon": "icons/shell32.dllicon257.png",
+      "entry": "apps/browser/index.php",
+      "permissions": ["network"],
+      "width": 800,
+      "height": 600
+    },
+    {
+      "id": "explorer",
+      "title": "Explorer",
+      "icon": "icons/Folder.png",
+      "entry": "apps/explorer/index.php",
+      "permissions": ["fs"],
+      "width": 500,
+      "height": 400
+    },
+    {
+      "id": "settings",
+      "title": "Settings",
+      "icon": "icons/shell32.dllicon274.png",
+      "entry": "apps/settings/index.php",
+      "permissions": [],
+      "width": 400,
+      "height": 300
+    },
+    {
+      "id": "store",
+      "title": "App Store",
+      "icon": "icons/ProgramGroup.png",
+      "entry": "apps/store/index.php",
+      "permissions": [],
+      "width": 500,
+      "height": 400
+    },
+    {
+      "id": "usermgr",
+      "title": "User Manager",
+      "icon": "icons/Users.png",
+      "entry": "apps/usermgr/index.php",
+      "permissions": [],
+      "width": 500,
+      "height": 400
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+/* Material Theme */
+.window {
+  background: #fff;
+  border-radius: 4px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+.window-titlebar {
+  background: #2196f3;
+  color: #fff;
+  padding: 8px;
+  cursor: move;
+  border-radius: 4px 4px 0 0;
+}
+.window-titlebar button {
+  background: transparent;
+  border: none;
+  width: 24px;
+  height: 24px;
+  color: #fff;
+  font-size: 16px;
+}
+#taskbar {
+  background: #2196f3;
+  color: #fff;
+  box-shadow: 0 -2px 5px rgba(0,0,0,0.2);
+}
+#start-menu {
+  background: #fff;
+  border-radius: 4px;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.3);
+}
+.menu-item:hover {
+  background: #eeeeee;
+}

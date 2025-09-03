@@ -1,0 +1,37 @@
+/* Win95 Theme */
+.window {
+  background: #c0c0c0;
+  border: 2px solid #000;
+  box-shadow: 2px 2px 0 #fff inset, -2px -2px 0 #808080 inset;
+}
+.window-titlebar {
+  background: #000080;
+  color: #fff;
+  padding: 4px;
+  font-weight: bold;
+  cursor: move;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.window-titlebar button {
+  background: #c0c0c0;
+  border: 2px outset #fff;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+#taskbar {
+  background: #c0c0c0;
+  border-top: 2px solid #fff;
+  box-shadow: inset 0 2px #808080;
+}
+#start-menu {
+  background: #c0c0c0;
+  border: 2px solid #000;
+  box-shadow: 2px 2px #fff inset, -2px -2px #808080 inset;
+}
+.menu-item:hover {
+  background: #000080;
+  color: white;
+}

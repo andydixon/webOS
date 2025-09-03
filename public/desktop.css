@@ -1,0 +1,90 @@
+/* desktop.css — Base layout before themes */
+
+body {
+  margin: 0;
+  overflow: hidden;
+  font-family: sans-serif;
+  background: #008080; /* Fallback */
+}
+
+#desktop {
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 40px;
+}
+
+.desktop-icon {
+  width: 80px;
+  text-align: center;
+  color: white;
+  font-size: 12px;
+  cursor: default;
+  position: absolute;
+}
+.desktop-icon img {
+  display: block;
+  margin: auto;
+}
+
+#taskbar {
+  position: absolute;
+  bottom: 0; left: 0; right: 0;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#start-button {
+  padding: 0 10px;
+  cursor: pointer;
+}
+
+#taskbar-apps {
+  flex: 1;
+  display: flex;
+  gap: 5px;
+  padding-left: 10px;
+}
+
+#tray {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 0 10px;
+}
+
+#start-menu {
+  position: absolute;
+  bottom: 40px;
+  left: 0;
+  display: none;
+  min-width: 200px;
+}
+
+.window-titlebar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2px 4px;
+}
+
+.window-controls {
+  display: flex;
+  gap: 2px;
+}
+
+.window-controls button {
+  width: 22px;
+  height: 20px;
+  font-size: 12px;
+  cursor: pointer;
+  border: none;
+  background: #666;
+  color: #fff;
+  padding: 0;
+  line-height: 18px;
+}
+.window-controls button:hover {
+  background: #444;
+}
+

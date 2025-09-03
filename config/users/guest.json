@@ -1,0 +1,9 @@
+{
+  "username": "guest",
+  "password": "",
+  "theme": "modern",
+  "wallpaper": "wallpapers/forest.jpg",
+  "apps": ["browser", "explorer"],
+  "fsRoot": "guest",
+  "desktop": []
+}
